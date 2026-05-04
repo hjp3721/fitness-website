@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitGear - 专业健身器材</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-inner">
+      <a href="/" class="logo">Fit<span>Gear</span></a>
+      <ul class="nav-links">
+        <li><a href="/">首页</a></li>
+        <li><a href="#products">产品</a></li>
+        <li><a href="#features">服务</a></li>
+        <li class="nav-auth" id="navAuth">
+          <a href="/login.html" class="btn btn-outline">登录</a>
+          <a href="/register.html" class="btn btn-primary">注册</a>
+        </li>
+        <li class="nav-user" id="navUser" style="display:none">
+          <span id="navUsername"></span>
+          <a href="/profile.html" class="btn btn-outline">个人中心</a>
+          <button class="btn btn-primary" onclick="logout()">退出</button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>打造你的理想<span>身材</span></h1>
+    <p>专业健身器材，品质保证。从入门到专业，FitGear 陪你每一步。</p>
+    <a href="#products" class="btn btn-primary">立即选购</a>
+  </section>
+
+  <section class="products" id="products">
+    <h2 class="section-title">热门产品</h2>
+    <p class="section-sub">精选高品质健身器材，满足不同训练需求</p>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-img">🏋️</div>
+        <div class="product-info">
+          <h3>可调节哑铃套装</h3>
+          <p>2.5-25kg 自由调节，节省空间</p>
+          <div class="product-price">¥1,299 <span>¥1,899</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🏃</div>
+        <div class="product-info">
+          <h3>智能跑步机 Pro</h3>
+          <p>静音电机，APP互联，折叠收纳</p>
+          <div class="product-price">¥3,999 <span>¥5,299</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🏋️‍♂️</div>
+        <div class="product-info">
+          <h3>多功能综合训练器</h3>
+          <p>全身训练，一机搞定</p>
+          <div class="product-price">¥5,699 <span>¥7,299</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🧘</div>
+        <div class="product-info">
+          <h3>专业瑜伽垫</h3>
+          <p>6mm 环保TPE，防滑耐用</p>
+          <div class="product-price">¥299 <span>¥399</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">🚴</div>
+        <div class="product-info">
+          <h3>磁控动感单车</h3>
+          <p>静音磁控，20档阻力调节</p>
+          <div class="product-price">¥2,199 <span>¥2,899</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img">💪</div>
+        <div class="product-info">
+          <h3>弹力带套装</h3>
+          <p>5条不同阻力，便携健身</p>
+          <div class="product-price">¥129 <span>¥199</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="features-grid">
+      <div>
+        <div class="feature-icon">🚚</div>
+        <h3>免费配送</h3>
+        <p>全国包邮，快速送达</p>
+      </div>
+      <div>
+        <div class="feature-icon">🔧</div>
+        <h3>终身保修</h3>
+        <p>品质保障，售后无忧</p>
+      </div>
+      <div>
+        <div class="feature-icon">💳</div>
+        <h3>分期付款</h3>
+        <p>支持3/6/12期免息</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 FitGear 健身器材. All rights reserved.</p>
+  </footer>
+
+  <script src="/js/script.js"></script>
+</body>
+</html>
